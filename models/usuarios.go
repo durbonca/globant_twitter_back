@@ -20,3 +20,7 @@ type Usuario struct {
 	Ubicacion string             `bson:"ubicacion" json:"ubicacion,omitempty"`
 	Web       string             `bson:"web" json:"web,omitempty"`
 }
+
+type JWTLogin struct {
+	Token string `json:"token,omitempty"`
+}
